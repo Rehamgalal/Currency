@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_retry">Retry</string>
+    <string name="label_error">Something went wrong, please try again</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="enable_location_rational_title">Provide location permission</string>
+    <string name="enable_location_rational_message">We need permission to get last location</string>
+    <string name="enable_location_rational_denied_message">Permission denied, unable to get last location!</string>
+    <string name="location_gps_message">GPS location is needed</string>
+</resources>
