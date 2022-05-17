@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.databinding.library.BuildConfig
 import com.scan.currency.di.featuresModule
 import com.scan.currency.di.utilsModule
+import com.scan.currencydata.di.DataUtilsModule
 import com.scan.currencydata.di.networkModule
 import com.scan.currencydata.di.repositoryModule
 
@@ -25,7 +26,9 @@ class CurrencyApplication: Application() {
                     networkModule,
                     repositoryModule,
                     featuresModule,
-                    utilsModule)
+                    utilsModule,
+                    DataUtilsModule
+                )
             )
         }
     }
