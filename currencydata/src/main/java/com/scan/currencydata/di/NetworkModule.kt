@@ -21,7 +21,8 @@ val networkModule = module {
 
     fun provideAccessKeyInterceptor() = Interceptor {
         var original = it.request()
-        val url = original.url.newBuilder().addQueryParameter("access_key", "neQ3Ue7uHEnlEPJjV1KTgJtWgOufyK6o").build()
+        val url = original.url.newBuilder()
+            .addQueryParameter("access_key", "3iZ32BS1RGtBXdn71CLm745hEvW3NRFf").build()
         original = it.request().newBuilder().url(url).build()
         return@Interceptor it.proceed(original)
     }

@@ -1,4 +1,679 @@
 <resources>
     <string name="app_name">Currency</string>
-      <string name="title_dynamicfeature">data</string>
+    <string name="title_dynamicfeature">data</string>
+    <string name="details">Details</string>
+    <string name="uae">United Arab Emirates Dirham</string>
+    <string name="afgh">Afghan Afghani</string>
+    <string name="alb">Albanian Lek</string>
+    <string name="arm">Armenian Dram</string>
+    <string name="nag">Netherlands Antillean Guilder</string>
+    <string name="ang">Angolan Kwanza</string>
+    <string name="arg">Argentine Peso</string>
+    <string name="aus">Australian Dollar</string>
+    <string name="aru">Aruban Florin</string>
+    <string name="aze">Azerbaijani Manat</string>
+    <string name="bos">Bosnia-Herzegovina Convertible Mark</string>
+    <string name="bar">Barbadian Dollar</string>
+    <string name="ban">Bangladeshi Taka</string>
+    <string name="bul">Bulgarian Lev</string>
+    <string name="bah">Bahraini Dinar</string>
+    <string name="bur">Burundian Franc</string>
+    <string name="ber">Bermudan Dollar</string>
+    <string name="bru">Brunei Dollar</string>
+    <string name="bol">Bolivian Boliviano</string>
+    <string name="bra">Brazilian Real</string>
+    <string name="bam">Bahamian Dollar</string>
+    <string name="bit">Bitcoin</string>
+    <string name="bhu">Bhutanese Ngultrum</string>
+    <string name="bot">Botswanan Pula</string>
+    <string name="bel">Belarusian Ruble</string>
+    <string name="neb">New Belarusian Ruble</string>
+    <string name="bei">Belize Dollar</string>
+    <string name="can">Canadian Dollar</string>
+    <string name="con">Congolese Franc</string>
+    <string name="swi">Swiss Franc</string>
+    <string name="chi">Chilean Unit of Account (UF)</string>
+    <string name="chb">Chilean Peso</string>
+    <string name="chn">Chinese Yuan</string>
+    <string name="col">Colombian Peso</string>
+    <string name="cos">Costa Rican Colón</string>
+    <string name="cub">Cuban Convertible Peso</string>
+    <string name="cua">Cuban Peso</string>
+    <string name="cap">Cape Verdean Escudo</string>
+    <string name="cze">Czech Republic Koruna</string>
+    <string name="dji">Djiboutian Franc</string>
+    <string name="dan">Danish Krone</string>
+    <string name="dom">Dominican Peso</string>
+    <string name="alg">Algerian Dinar</string>
+    <string name="egy">Egyptian Pound</string>
+    <string name="eri">Eritrean Nakfa</string>
+    <string name="eth">Ethiopian Birr</string>
+    <string name="eur">Euro</string>
+    <string name="fij">Fijian Dollar</string>
+    <string name="fal">Falkland Islands Pound</string>
+    <string name="bri">British Pound Sterling</string>
+    <string name="geo">Georgian Lari</string>
+    <string name="gue">Guernsey Pound</string>
+    <string name="gha">Ghanaian Cedi</string>
+    <string name="gib">Gibraltar Pound</string>
+    <string name="gam">Gambian Dalasi</string>
+    <string name="gui">Guinean Franc</string>
+    <string name="gua">Guatemalan Quetzal</string>
+    <string name="guy">Guyanaese Dollar</string>
+    <string name="hon">Hong Kong Dollar</string>
+    <string name="hod">Honduran Lempira</string>
+    <string name="cro">Croatian Kuna</string>
+    <string name="hai">Haitian Gourde</string>
+    <string name="hun">Hungarian Forint</string>
+    <string name="ind">Indonesian Rupiah</string>
+    <string name="man">Manx pound</string>
+    <string name="ini">Indian Rupee</string>
+    <string name="ira">Iraqi Dinar</string>
+    <string name="irn">Iranian Rial</string>
+    <string name="ice">Icelandic Króna</string>
+    <string name="jer">Jersey Pound</string>
+    <string name="jam">Jamaican Dollar</string>
+    <string name="jor">Jordanian Dinar</string>
+    <string name="jap">Japanese Yen</string>
+    <string name="ken">Kenyan Shilling</string>
+    <string name="kyr">Kyrgystani Som</string>
+    <string name="cam">Cambodian Riel</string>
+    <string name="com">Comorian Franc</string>
+    <string name="nor">North Korean Won</string>
+    <string name="sou">South Korean Won</string>
+    <string name="kuw">Kuwaiti Dinar</string>
+    <string name="cay">Cayman Islands Dollar</string>
+    <string name="kaz">Kazakhstani Tenge</string>
+    <string name="lao">Laotian Kip</string>
+    <string name="leb">Lebanese Pound</string>
+    <string name="sei">Sri Lankan Rupee</string>
+    <string name="lib">Liberian Dollar</string>
+    <string name="les">Lesotho Loti</string>
+    <string name="lit">Lithuanian Litas</string>
+    <string name="lat">Latvian Lats</string>
+    <string name="liy">Libyan Dinar</string>
+    <string name="mor">Moroccan Dirham</string>
+    <string name="mol">Moldovan Leu</string>
+    <string name="mal">Malagasy Ariary</string>
+    <string name="mac">Macedonian Denar</string>
+    <string name="mya">Myanma Kyat</string>
+    <string name="mon">Mongolian Tugrik</string>
+    <string name="maa">Macanese Pataca</string>
+    <string name="mau">Mauritanian Ouguiya</string>
+    <string name="mar">Mauritian Rupee</string>
+    <string name="mad">Maldivian Rufiyaa</string>
+    <string name="maw">Malawian Kwacha</string>
+    <string name="mex">Mexican Peso</string>
+    <string name="may">Malaysian Ringgit</string>
+    <string name="moz">Mozambican Metical</string>
+    <string name="nam">Namibian Dollar</string>
+    <string name="nig">Nigerian Naira</string>
+    <string name="nic">Nicaraguan Córdoba</string>
+    <string name="now">Norwegian Krone</string>
+    <string name="nep">Nepalese Rupee</string>
+    <string name="nez">New Zealand Dollar</string>
+    <string name="oma">Omani Rial</string>
+    <string name="pan">Panamanian Balboa</string>
+    <string name="per">Peruvian Nuevo Sol</string>
+    <string name="pap">Papua New Guinean Kina</string>
+    <string name="phi">Philippine Peso</string>
+    <string name="pak">Pakistani Rupee</string>
+    <string name="pol">Polish Zloty</string>
+    <string name="par">Paraguayan Guarani</string>
+    <string name="qar">Qatari Rial</string>
+    <string name="rom">Romanian Leu</string>
+    <string name="ser">Serbian Dinar</string>
+    <string name="rus">Russian Ruble</string>
+    <string name="rwa">Rwandan Franc</string>
+    <string name="sau">Saudi Riyal</string>
+    <string name="sol">Solomon Islands Dollar</string>
+    <string name="sey">Seychellois Rupee</string>
+    <string name="sud">Sudanese Pound</string>
+    <string name="swe">Swedish Krona</string>
+    <string name="sin">Singapore Dollar</string>
+    <string name="sai">Saint Helena Pound</string>
+    <string name="sie">Sierra Leonean Leone</string>
+    <string name="som">Somali Shilling</string>
+    <string name="sur">Surinamese Dollar</string>
+    <string name="sao">São Tomé and Príncipe Dobra</string>
+    <string name="sal">Salvadoran Colón</string>
+    <string name="syr">Syrian Pound</string>
+    <string name="swa">Swazi Lilangeni</string>
+    <string name="tha">Thai Baht</string>
+    <string name="taj">Tajikistani Somoni</string>
+    <string name="tur">Turkmenistani Manat</string>
+    <string name="tun">Tunisian Dinar</string>
+    <string name="ton">Tongan Paʻanga</string>
+    <string name="tuk">Turkish Lira</string>
+    <string name="tri">Trinidad and Tobago Dollar</string>
+    <string name="net">New Taiwan Dollar</string>
+    <string name="tan">Tanzanian Shilling</string>
+    <string name="ukr">Ukrainian Hryvnia</string>
+    <string name="uga">Ugandan Shilling</string>
+    <string name="uni">United States Dollar</string>
+    <string name="uru">Uruguayan Peso</string>
+    <string name="uzb">Uzbekistan Som</string>
+    <string name="ven">Venezuelan Bolívar Fuerte</string>
+    <string name="vie">Vietnamese Dong</string>
+    <string name="van">Vanuatu Vatu</string>
+    <string name="sam">Samoan Tala</string>
+    <string name="cfa">CFA Franc BEAC</string>
+    <string name="sil">Silver (troy ounce)</string>
+    <string name="gol">Gold (troy ounce)</string>
+    <string name="eas">East Caribbean Dollar</string>
+    <string name="spe">Special Drawing Rights</string>
+    <string name="bce">CFA Franc BCEAO</string>
+    <string name="cfp">CFP Franc</string>
+    <string name="yem">Yemeni Rial</string>
+    <string name="sot">South African Rand</string>
+    <string name="zam">Zambian Kwacha (pre-2013)</string>
+    <string name="zak">Zambian Kwacha</string>
+    <string name="zim">Zimbabwean Dollar</string>
+    <string name="uae_c">AED</string>
+    <string name="afgh_c">AFN</string>
+    <string name="alb_c">ALL</string>
+    <string name="arm_c">AMD</string>
+    <string name="nag_c">ANG</string>
+    <string name="ang_c">AOA</string>
+    <string name="arg_c">ARS</string>
+    <string name="aus_c">AUD</string>
+    <string name="aru_c">AWG</string>
+    <string name="aze_c">AZN</string>
+    <string name="bos_c">BAM</string>
+    <string name="bar_c">BBD</string>
+    <string name="ban_c">BDT</string>
+    <string name="bul_c">BGN</string>
+    <string name="bah_c">BHD</string>
+    <string name="bur_c">BIF</string>
+    <string name="ber_c">BMD</string>
+    <string name="bru_c">BND</string>
+    <string name="bol_c">BOB</string>
+    <string name="bra_c">BRL</string>
+    <string name="bam_c">BSD</string>
+    <string name="bit_c">BTC</string>
+    <string name="bhu_c">BTN</string>
+    <string name="bot_c">BWP</string>
+    <string name="bel_c">BYR</string>
+    <string name="neb_c">BYN</string>
+    <string name="bei_c">BZD</string>
+    <string name="can_c">CAD</string>
+    <string name="con_c">CDF</string>
+    <string name="swi_c">CHF</string>
+    <string name="chi_c">CLF</string>
+    <string name="chb_c">CLP</string>
+    <string name="chn_c">CNY</string>
+    <string name="col_c">COP</string>
+    <string name="cos_c">CRC</string>
+    <string name="cub_c">CUC</string>
+    <string name="cua_c">CUP</string>
+    <string name="cap_c">CVE</string>
+    <string name="cze_c">CZK</string>
+    <string name="dji_c">DJF</string>
+    <string name="dan_c">DKK</string>
+    <string name="dom_c">DOP</string>
+    <string name="alg_c">DZD</string>
+    <string name="egy_c">EGP</string>
+    <string name="eri_c">ERN</string>
+    <string name="eth_c">ETB</string>
+    <string name="eur_c">EUR</string>
+    <string name="fij_c">FJD</string>
+    <string name="fal_c">FKP</string>
+    <string name="bri_c">GBP</string>
+    <string name="geo_c">GEL</string>
+    <string name="gue_c">GGP</string>
+    <string name="gha_c">GHS</string>
+    <string name="gib_c">GIP</string>
+    <string name="gam_c">GMD</string>
+    <string name="gui_c">GNF</string>
+    <string name="gua_c">GTQ</string>
+    <string name="guy_c">GYD</string>
+    <string name="hon_c">HKD</string>
+    <string name="hod_c">HNL</string>
+    <string name="cro_c">HRK</string>
+    <string name="hai_c">HTG</string>
+    <string name="hun_c">HUF</string>
+    <string name="ind_c">IDR</string>
+    <string name="man_c">IMP</string>
+    <string name="ini_c">INR</string>
+    <string name="ira_c">IQD</string>
+    <string name="irn_c">IRR</string>
+    <string name="ice_c">ISK</string>
+    <string name="jer_c">JEP</string>
+    <string name="jam_c">JMD</string>
+    <string name="jor_c">JOD</string>
+    <string name="jap_c">JPY</string>
+    <string name="ken_c">KES</string>
+    <string name="kyr_c">KGS</string>
+    <string name="cam_c">KHR</string>
+    <string name="com_c">KMF</string>
+    <string name="nor_c">KPW</string>
+    <string name="sou_c">KRW</string>
+    <string name="kuw_c">KWD</string>
+    <string name="cay_c">KYD</string>
+    <string name="kaz_c">KZT</string>
+    <string name="lao_c">LAK</string>
+    <string name="leb_c">LBP</string>
+    <string name="sei_c">LKR</string>
+    <string name="lib_c">LRD</string>
+    <string name="les_c">LSL</string>
+    <string name="lit_c">LTL</string>
+    <string name="lat_c">LVL</string>
+    <string name="liy_c">LYD</string>
+    <string name="mor_c">MAD</string>
+    <string name="mol_c">MDL</string>
+    <string name="mal_c">MGA</string>
+    <string name="mac_c">MKD</string>
+    <string name="mya_c">MMK</string>
+    <string name="mon_c">MNT</string>
+    <string name="maa_c">MOP</string>
+    <string name="mau_c">MRO</string>
+    <string name="mar_c">MUR</string>
+    <string name="mad_c">MVR</string>
+    <string name="maw_c">MWK</string>
+    <string name="mex_c">MXN</string>
+    <string name="may_c">MYR</string>
+    <string name="moz_c">MZN</string>
+    <string name="nam_c">NAD</string>
+    <string name="nig_c">NGN</string>
+    <string name="nic_c">NIO</string>
+    <string name="now_c">NOK</string>
+    <string name="nep_c">NPR</string>
+    <string name="nez_c">NZD</string>
+    <string name="oma_c">OMR</string>
+    <string name="pan_c">PAB</string>
+    <string name="per_c">PEN</string>
+    <string name="pap_c">PGK</string>
+    <string name="phi_c">PHP</string>
+    <string name="pak_c">PKR</string>
+    <string name="pol_c">PLN</string>
+    <string name="par_c">PYG</string>
+    <string name="qar_c">QAR</string>
+    <string name="rom_c">RON</string>
+    <string name="ser_c">RSD</string>
+    <string name="rus_c">RUB</string>
+    <string name="rwa_c">RWF</string>
+    <string name="sau_c">SAR</string>
+    <string name="sol_c">SBD</string>
+    <string name="sey_c">SCR</string>
+    <string name="sud_c">SDG</string>
+    <string name="swe_c">SEK</string>
+    <string name="sin_c">SGD</string>
+    <string name="sai_c">SHP</string>
+    <string name="sie_c">SLL</string>
+    <string name="som_c">SOS</string>
+    <string name="sur_c">SRD</string>
+    <string name="sao_c">STD</string>
+    <string name="sal_c">SVC</string>
+    <string name="syr_c">SYP</string>
+    <string name="swa_c">SZL</string>
+    <string name="tha_c">THB</string>
+    <string name="taj_c">TJS</string>
+    <string name="tur_c">TMT</string>
+    <string name="tun_c">TND</string>
+    <string name="ton_c">TOP</string>
+    <string name="tuk_c">TRY</string>
+    <string name="tri_c">TTD</string>
+    <string name="net_c">TWD</string>
+    <string name="tan_c">TZS</string>
+    <string name="ukr_c">UAH</string>
+    <string name="uga_c">UGX</string>
+    <string name="uni_c">USD</string>
+    <string name="uru_c">UYU</string>
+    <string name="uzb_c">UZS</string>
+    <string name="ven_c">VEF</string>
+    <string name="vie_c">VND</string>
+    <string name="van_c">VUV</string>
+    <string name="sam_c">WST</string>
+    <string name="cfa_c">XAF</string>
+    <string name="sil_c">XAG</string>
+    <string name="gol_c">XAU</string>
+    <string name="eas_c">XCD</string>
+    <string name="spe_c">XDR</string>
+    <string name="bce_c">XOF</string>
+    <string name="cfp_c">XPF</string>
+    <string name="yem_c">YER</string>
+    <string name="sot_c">ZAR</string>
+    <string name="zam_c">ZMK</string>
+    <string name="zak_c">ZMW</string>
+    <string name="zim_c">ZWL</string>
+
+    <string-array name="countrys">
+        <item>@string/uae</item>
+        <item>@string/afgh</item>
+        <item>@string/alb</item>
+        <item>@string/arm</item>
+        <item>@string/nag</item>
+        <item>@string/ang</item>
+        <item>@string/arg</item>
+        <item>@string/aus</item>
+        <item>@string/aru</item>
+        <item>@string/aze</item>
+        <item>@string/bos</item>
+        <item>@string/bar</item>
+        <item>@string/ban</item>
+        <item>@string/bul</item>
+        <item>@string/bah</item>
+        <item>@string/bur</item>
+        <item>@string/ber</item>
+        <item>@string/bru</item>
+        <item>@string/bol</item>
+        <item>@string/bra</item>
+        <item>@string/bam</item>
+        <item>@string/bit</item>
+        <item>@string/bhu</item>
+        <item>@string/bot</item>
+        <item>@string/bel</item>
+        <item>@string/neb</item>
+        <item>@string/bei</item>
+        <item>@string/can</item>
+        <item>@string/con</item>
+        <item>@string/swi</item>
+        <item>@string/chi</item>
+        <item>@string/chb</item>
+        <item>@string/chn</item>
+        <item>@string/col</item>
+        <item>@string/cos</item>
+        <item>@string/cub</item>
+        <item>@string/cua</item>
+        <item>@string/cap</item>
+        <item>@string/cze</item>
+        <item>@string/dji</item>
+        <item>@string/dan</item>
+        <item>@string/dom</item>
+        <item>@string/alg</item>
+        <item>@string/egy</item>
+        <item>@string/eri</item>
+        <item>@string/eth</item>
+        <item>@string/eur</item>
+        <item>@string/fij</item>
+        <item>@string/fal</item>
+        <item>@string/bri</item>
+        <item>@string/geo</item>
+        <item>@string/gue</item>
+        <item>@string/gha</item>
+        <item>@string/gib</item>
+        <item>@string/gam</item>
+        <item>@string/gui</item>
+        <item>@string/gua</item>
+        <item>@string/guy</item>
+        <item>@string/hon</item>
+        <item>@string/hod</item>
+        <item>@string/cro</item>
+        <item>@string/hai</item>
+        <item>@string/hun</item>
+        <item>@string/ind</item>
+        <item>@string/man</item>
+        <item>@string/ini</item>
+        <item>@string/ira</item>
+        <item>@string/irn</item>
+        <item>@string/ice</item>
+        <item>@string/jer</item>
+        <item>@string/jam</item>
+        <item>@string/jor</item>
+        <item>@string/jap</item>
+        <item>@string/ken</item>
+        <item>@string/kyr</item>
+        <item>@string/cam</item>
+        <item>@string/com</item>
+        <item>@string/nor</item>
+        <item>@string/sou</item>
+        <item>@string/kuw</item>
+        <item>@string/cay</item>
+        <item>@string/kaz</item>
+        <item>@string/lao</item>
+        <item>@string/leb</item>
+        <item>@string/sei</item>
+        <item>@string/lib</item>
+        <item>@string/les</item>
+        <item>@string/lit</item>
+        <item>@string/lat</item>
+        <item>@string/liy</item>
+        <item>@string/mor</item>
+        <item>@string/mol</item>
+        <item>@string/mal</item>
+        <item>@string/mac</item>
+        <item>@string/mya</item>
+        <item>@string/mon</item>
+        <item>@string/maa</item>
+        <item>@string/mau</item>
+        <item>@string/mar</item>
+        <item>@string/mad</item>
+        <item>@string/maw</item>
+        <item>@string/mex</item>
+        <item>@string/may</item>
+        <item>@string/moz</item>
+        <item>@string/nam</item>
+        <item>@string/nig</item>
+        <item>@string/nic</item>
+        <item>@string/now</item>
+        <item>@string/nep</item>
+        <item>@string/nez</item>
+        <item>@string/oma</item>
+        <item>@string/pan</item>
+        <item>@string/per</item>
+        <item>@string/pap</item>
+        <item>@string/phi</item>
+        <item>@string/pak</item>
+        <item>@string/pol</item>
+        <item>@string/par</item>
+        <item>@string/qar</item>
+        <item>@string/rom</item>
+        <item>@string/ser</item>
+        <item>@string/rus</item>
+        <item>@string/rwa</item>
+        <item>@string/sau</item>
+        <item>@string/sol</item>
+        <item>@string/sey</item>
+        <item>@string/sud</item>
+        <item>@string/swe</item>
+        <item>@string/sin</item>
+        <item>@string/sai</item>
+        <item>@string/sie</item>
+        <item>@string/som</item>
+        <item>@string/sur</item>
+        <item>@string/sao</item>
+        <item>@string/sal</item>
+        <item>@string/syr</item>
+        <item>@string/swa</item>
+        <item>@string/tha</item>
+        <item>@string/taj</item>
+        <item>@string/tur</item>
+        <item>@string/tun</item>
+        <item>@string/ton</item>
+        <item>@string/tuk</item>
+        <item>@string/tri</item>
+        <item>@string/net</item>
+        <item>@string/tan</item>
+        <item>@string/ukr</item>
+        <item>@string/uga</item>
+        <item>@string/uni</item>
+        <item>@string/uru</item>
+        <item>@string/uzb</item>
+        <item>@string/ven</item>
+        <item>@string/vie</item>
+        <item>@string/van</item>
+        <item>@string/sam</item>
+        <item>@string/cfa</item>
+        <item>@string/sil</item>
+        <item>@string/gol</item>
+        <item>@string/eas</item>
+        <item>@string/spe</item>
+        <item>@string/bce</item>
+        <item>@string/cfp</item>
+        <item>@string/yem</item>
+        <item>@string/sot</item>
+        <item>@string/zam</item>
+        <item>@string/zak</item>
+        <item>@string/zim</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>@string/uae_c</item>
+        <item>@string/afgh_c</item>
+        <item>@string/alb_c</item>
+        <item>@string/arm_c</item>
+        <item>@string/nag_c</item>
+        <item>@string/ang_c</item>
+        <item>@string/arg_c</item>
+        <item>@string/aus_c</item>
+        <item>@string/aru_c</item>
+        <item>@string/aze_c</item>
+        <item>@string/bos_c</item>
+        <item>@string/bar_c</item>
+        <item>@string/ban_c</item>
+        <item>@string/bul_c</item>
+        <item>@string/bah_c</item>
+        <item>@string/bur_c</item>
+        <item>@string/ber_c</item>
+        <item>@string/bru_c</item>
+        <item>@string/bol_c</item>
+        <item>@string/bra_c</item>
+        <item>@string/bam_c</item>
+        <item>@string/bit_c</item>
+        <item>@string/bhu_c</item>
+        <item>@string/bot_c</item>
+        <item>@string/bel_c</item>
+        <item>@string/neb_c</item>
+        <item>@string/bei_c</item>
+        <item>@string/can_c</item>
+        <item>@string/con_c</item>
+        <item>@string/swi_c</item>
+        <item>@string/chi_c</item>
+        <item>@string/chb_c</item>
+        <item>@string/chn_c</item>
+        <item>@string/col_c</item>
+        <item>@string/cos_c</item>
+        <item>@string/cub_c</item>
+        <item>@string/cua_c</item>
+        <item>@string/cap_c</item>
+        <item>@string/cze_c</item>
+        <item>@string/dji_c</item>
+        <item>@string/dan_c</item>
+        <item>@string/dom_c</item>
+        <item>@string/alg_c</item>
+        <item>@string/egy_c</item>
+        <item>@string/eri_c</item>
+        <item>@string/eth_c</item>
+        <item>@string/eur_c</item>
+        <item>@string/fij_c</item>
+        <item>@string/fal_c</item>
+        <item>@string/bri_c</item>
+        <item>@string/geo_c</item>
+        <item>@string/gue_c</item>
+        <item>@string/gha_c</item>
+        <item>@string/gib_c</item>
+        <item>@string/gam_c</item>
+        <item>@string/gui_c</item>
+        <item>@string/gua_c</item>
+        <item>@string/guy_c</item>
+        <item>@string/hon_c</item>
+        <item>@string/hod_c</item>
+        <item>@string/cro_c</item>
+        <item>@string/hai_c</item>
+        <item>@string/hun_c</item>
+        <item>@string/ind_c</item>
+        <item>@string/man_c</item>
+        <item>@string/ini_c</item>
+        <item>@string/ira_c</item>
+        <item>@string/irn_c</item>
+        <item>@string/ice_c</item>
+        <item>@string/jer_c</item>
+        <item>@string/jam_c</item>
+        <item>@string/jor_c</item>
+        <item>@string/jap_c</item>
+        <item>@string/ken_c</item>
+        <item>@string/kyr_c</item>
+        <item>@string/cam_c</item>
+        <item>@string/com_c</item>
+        <item>@string/nor_c</item>
+        <item>@string/sou_c</item>
+        <item>@string/kuw_c</item>
+        <item>@string/cay_c</item>
+        <item>@string/kaz_c</item>
+        <item>@string/lao_c</item>
+        <item>@string/leb_c</item>
+        <item>@string/sei_c</item>
+        <item>@string/lib_c</item>
+        <item>@string/les_c</item>
+        <item>@string/lit_c</item>
+        <item>@string/lat_c</item>
+        <item>@string/liy_c</item>
+        <item>@string/mor_c</item>
+        <item>@string/mol_c</item>
+        <item>@string/mal_c</item>
+        <item>@string/mac_c</item>
+        <item>@string/mya_c</item>
+        <item>@string/mon_c</item>
+        <item>@string/maa_c</item>
+        <item>@string/mau_c</item>
+        <item>@string/mar_c</item>
+        <item>@string/mad_c</item>
+        <item>@string/maw_c</item>
+        <item>@string/mex_c</item>
+        <item>@string/may_c</item>
+        <item>@string/moz_c</item>
+        <item>@string/nam_c</item>
+        <item>@string/nig_c</item>
+        <item>@string/nic_c</item>
+        <item>@string/now_c</item>
+        <item>@string/nep_c</item>
+        <item>@string/nez_c</item>
+        <item>@string/oma_c</item>
+        <item>@string/pan_c</item>
+        <item>@string/per_c</item>
+        <item>@string/pap_c</item>
+        <item>@string/phi_c</item>
+        <item>@string/pak_c</item>
+        <item>@string/pol_c</item>
+        <item>@string/par_c</item>
+        <item>@string/qar_c</item>
+        <item>@string/rom_c</item>
+        <item>@string/ser_c</item>
+        <item>@string/rus_c</item>
+        <item>@string/rwa_c</item>
+        <item>@string/sau_c</item>
+        <item>@string/sol_c</item>
+        <item>@string/sey_c</item>
+        <item>@string/sud_c</item>
+        <item>@string/swe_c</item>
+        <item>@string/sin_c</item>
+        <item>@string/sai_c</item>
+        <item>@string/sie_c</item>
+        <item>@string/som_c</item>
+        <item>@string/sur_c</item>
+        <item>@string/sao_c</item>
+        <item>@string/sal_c</item>
+        <item>@string/syr_c</item>
+        <item>@string/swa_c</item>
+        <item>@string/tha_c</item>
+        <item>@string/taj_c</item>
+        <item>@string/tur_c</item>
+        <item>@string/tun_c</item>
+        <item>@string/ton_c</item>
+        <item>@string/tuk_c</item>
+        <item>@string/tri_c</item>
+        <item>@string/net_c</item>
+        <item>@string/tan_c</item>
+        <item>@string/ukr_c</item>
+        <item>@string/uga_c</item>
+        <item>@string/uni_c</item>
+        <item>@string/uru_c</item>
+        <item>@string/uzb_c</item>
+        <item>@string/ven_c</item>
+        <item>@string/vie_c</item>
+        <item>@string/van_c</item>
+        <item>@string/sam_c</item>
+        <item>@string/cfa_c</item>
+        <item>@string/sil_c</item>
+        <item>@string/gol_c</item>
+        <item>@string/eas_c</item>
+        <item>@string/spe_c</item>
+        <item>@string/bce_c</item>
+        <item>@string/cfp_c</item>
+        <item>@string/yem_c</item>
+        <item>@string/sot_c</item>
+        <item>@string/zam_c</item>
+        <item>@string/zak_c</item>
+        <item>@string/zim_c</item>
+    </string-array>
 </resources>

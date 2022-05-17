@@ -5,36 +5,43 @@
     tools:context=".MainActivity"
     >
 <androidx.constraintlayout.widget.ConstraintLayout
-       android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:layout_width="@dimen/_60sdp"
-        android:layout_height="@dimen/_20sdp"
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/first_currency"
         android:layout_marginTop="@dimen/_80sdp"
+        android:spinnerMode="dropdown"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintEnd_toStartOf="@id/swap_currencies"/>
-    <Button
+        app:layout_constraintEnd_toStartOf="@id/swap_currencies" />
+
+    <ImageView
         android:layout_width="@dimen/_20sdp"
         android:layout_height="@dimen/_20sdp"
         android:id="@+id/swap_currencies"
         android:layout_marginStart="@dimen/_10sdp"
+        android:src="@drawable/swap"
         app:layout_constraintStart_toEndOf="@id/first_currency"
         app:layout_constraintTop_toTopOf="@id/first_currency"
-        app:layout_constraintEnd_toStartOf="@id/second_currency"/>
-    <TextView
-        android:layout_width="@dimen/_60sdp"
-        android:layout_height="@dimen/_20sdp"
+        app:layout_constraintEnd_toStartOf="@id/second_currency" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/second_currency"
         android:layout_marginStart="@dimen/_10sdp"
+        android:spinnerMode="dropdown"
         app:layout_constraintStart_toEndOf="@id/swap_currencies"
         app:layout_constraintTop_toTopOf="@id/swap_currencies"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <EditText
         android:layout_width="@dimen/_60sdp"
-        android:layout_height="@dimen/_20sdp"
+        android:layout_height="wrap_content"
         android:id="@+id/first_currency_input"
         android:layout_marginTop="@dimen/_15sdp"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,19 +50,22 @@
         app:layout_constraintEnd_toStartOf="@+id/second_currency_input"/>
     <EditText
         android:layout_width="@dimen/_60sdp"
-        android:layout_height="@dimen/_20sdp"
+        android:layout_height="wrap_content"
         android:id="@+id/second_currency_input"
         android:layout_marginStart="@dimen/_40sdp"
         app:layout_constraintTop_toTopOf="@id/first_currency_input"
         app:layout_constraintStart_toEndOf="@id/first_currency_input"
         app:layout_constraintEnd_toEndOf="parent"/>
+
     <Button
-        android:layout_width="@dimen/_60sdp"
-        android:layout_height="@dimen/_20sdp"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_40sdp"
         android:id="@+id/details"
+        android:text="@string/details"
+        android:textAllCaps="false"
         android:layout_marginTop="@dimen/_30sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/second_currency_input"/>
+        app:layout_constraintTop_toBottomOf="@id/second_currency_input" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

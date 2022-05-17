@@ -1,5 +1,6 @@
 package com.scan.currency
 
+import android.widget.ArrayAdapter
 import com.scan.cureencybase.view.BaseActivity
 import com.scan.currency.databinding.ActivityMainBinding
 import com.scan.currency.presentation.CurrenctViewModel
@@ -10,9 +11,8 @@ class MainActivity : BaseActivity<ActivityMainBinding,CurrencyConversionState,Cu
 
     override fun onViewAttach() {
         super.onViewAttach()
-        binding.details.setOnClickListener {
-            viewModel.convert(binding.firstCurrency.text.toString(),binding.firstCurrencyInput.text.toString().toDouble(),binding.secondCurrency.text.toString())
-        }
+        setupSpinners()
+        attachListener()
     }
     override fun getLayoutRes(): Int = R.layout.activity_main
 
@@ -27,4 +27,24 @@ class MainActivity : BaseActivity<ActivityMainBinding,CurrencyConversionState,Cu
 
     override fun getToolbarTitle(): Any? = null
 
+    private fun setupSpinners() {
+        val currencies = resources.getStringArray(R.array.currencies)
+        val fromAdapter =
+            ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, currencies)
+        val toAdapter =
+            ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, currencies)
+        binding.firstCurrency.adapter = fromAdapter
+        binding.secondCurrency.adapter = toAdapter
+
+    }
+
+    private fun attachListener() {
+        binding.details.setOnClickListener {
+            viewModel.convert(
+                binding.firstCurrency.selectedItem.toString(),
+                binding.firstCurrencyInput.text.toString().toDouble(),
+                binding.secondCurrency.selectedItem.toString()
+            )
+        }
+    }
 }
